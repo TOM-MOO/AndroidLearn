@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/title"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/website"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="type a website here"
+            android:layout_weight="5"
+            android:maxLines="2"/>
+
+        <Button
+            android:id="@+id/go"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Go"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Useful Links"
+        android:textSize="24sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="google" />
+
+    <Button
+        android:id="@+id/bing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bing" />
+
+    <Button
+        android:id="@+id/baidu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="baidu"/>
+
+    <Button
+        android:id="@+id/yahoo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="yahoo"/>
+
+    <Button
+        android:id="@+id/tencent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tencent"/>
+
+    <Button
+        android:id="@+id/sina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sina"/>
+
+    <Button
+        android:id="@+id/qihu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="360"/>
+
+</LinearLayout>

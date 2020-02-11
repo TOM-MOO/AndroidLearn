@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Manage System</string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonRegister">Register</string>
+    <string name="idHint">ID</string>
+    <string name="passwordHint">password</string>
+    <string name="idEmpty">input ID</string>
+    <string name="passwordEmpty">input password</string>
+    <string name="idWrong">ID not exists</string>
+    <string name="passwordWrong">password wrong</string>
+    <string name="coPassword">confirm the password</string>
+    <string name="idExist">ID exists</string>
+    <string name="consistency">password not consistent</string>
+    <string name="successRegister">successfully registered</string>
+    <string name="exit">press again to exit</string>
+    <string name="delete">successfully deleted</string>
+    <string name="oriPassword">original password</string>
+    <string name="newPassword">new password</string>
+    <string name="coNewPassword">confirm new password</string>
+    <string name="buttonModify">modify</string>
+    <string name="oriPasswordEmpty">input the original password</string>
+    <string name="newPasswordEmpty">input the new password</string>
+    <string name="successModify">successfully modified</string>
+    <string name="oriPasswordWrong">original password wrong</string>
+</resources>
