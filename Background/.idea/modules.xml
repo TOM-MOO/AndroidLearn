@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidLearn-Background.iml" filepath="$PROJECT_DIR$/AndroidLearn-Background.iml" group="Background" />
       <module fileurl="file://$PROJECT_DIR$/Background.iml" filepath="$PROJECT_DIR$/Background.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/Background-app.iml" filepath="$PROJECT_DIR$/app/Background-app.iml" group="Background/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
